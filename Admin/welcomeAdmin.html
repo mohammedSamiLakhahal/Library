@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome Page</title>
+        <link rel="stylesheet" href="../Css/all.min.css">
+        <link rel="stylesheet" href="../Css/bootstrap-icons.css">
+        <link rel="stylesheet" href="../Css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/asideAdmin.css">
+        <link rel="stylesheet" href="./css/welcomeAdmin.css">
+    </head>
+    <body onload="welcome()">
+        <!-- Go to library -->
+
+        <!-- --------------------- Start Aside --------------------- -->
+        <aside class="d-flex">
+            <div class="aside-data d-flex flex-column justify-content-between
+                py-3 ps-3">
+                <ul class="aside-links">
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+
+                <div class="copy-right mb-3">
+                    <ul class="list-inline mb-0 text-muted">
+                        <li class="list-inline-item"><i class="fab
+                                fa-facebook-f"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                        <li class="list-inline-item">
+                            <i class="fa-sharp fa-solid fa-globe"></i>
+                        </li>
+                    </ul>
+                    <p class="text-muted small">Copy right Â© <span id="date"></span>
+                        All Rights Reserved</p>
+                </div>
+            </div>
+
+            <div class="right-icons vstack align-items-center
+                justify-content-between">
+                <img src="../favicon.ico" alt="icons" />
+
+                <i class="fas fa-bars fa-2xl cp" id="menuIcon"></i>
+
+                <div class="d-flex flex-column">
+                    <i class="fa-solid fa-globe py-2"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </aside>
+        <!-- --------------------- End Aside --------------------- -->
+
+
+
+        <header id="welcomePage">
+            <div class="navbar fixed-top ms-auto">
+                <h3 class="m-auto text-center">Main Menu</h3>
+                <a href="../index.html" id="logout" class=" ms-auto mx-5">Logout</a>
+            </div>
+
+
+
+            <div class="welcome container mt-5 w-50 text-center">
+                <div class="m-auto pt-5">
+                    <h1 id="userName">
+                        Welcome
+                    </h1>
+                </div>
+
+
+                <div class="content2">
+                    <div>
+                        <div class="d-flex">
+                            <div>
+                                <div class="text-center mt-5">
+                                    <img src="../img/book (2).png"
+                                        width="20%" alt="">
+                                    <h4 class="text-white">1123 Book</h4>
+                                </div>
+
+                                <div class="text-center mt-5">
+                                    <img src="../img/books.png"
+                                        width="20%" alt="">
+                                    <h4 class="text-white">32 Category</h4>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-center mt-5">
+                                    <img src="../img/procurement.png"
+                                        width="20%" alt="">
+                                    <h4 class="text-white">85710Sales</h4>
+                                </div>
+
+                                <div class="text-center mt-5">
+                                    <img src="../img/man.png"
+                                        width="20%" alt="">
+                                    <h4 class="text-white">758 User</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="contetn">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 my-5 ">
+                                <div class="add">
+                                    <a href="addBooks.html">
+                                        <button class=" ">Add </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 my-5 ">
+                                <div class="Modify">
+                                    <a href="modifyBook.html">
+                                        <button class=" ">Modify</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 my-5 ">
+                                <div class="Search">
+                                    <a href="./searchForBookAdmin.html">
+                                        <button class=" ">Search</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 my-5 ">
+                                <div class="Delete">
+                                    <a href="deleteBook.html">
+                                        <button class=" ">Delete </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </header>
+
+
+
+        <script src="../Js/bootstrap.bundle.min.js"></script>
+        <script src="../Js/jquery-3.6.1.min.js"></script>
+        <script src="../Client/js/aside.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

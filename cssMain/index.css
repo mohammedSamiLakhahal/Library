@@ -1,0 +1,112 @@
+nav {
+    position       : fixed;
+    top            : 0;
+    left           : 0;
+    right          : 0;
+    background     : rgba(255, 255, 255, 0.25);
+    box-shadow     : 0 10px 50px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border         : 1px solid rgba(255, 255, 255, 0.18);
+    height         : 65px;
+}
+
+.content {
+    /* height         : 550px; */
+    width          : 700px;
+    padding        : 20px 35px;
+    background     : rgba(255, 255, 255, 0.25);
+    box-shadow     : 0 10px 50px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    border         : 1px solid rgba(255, 255, 255, 0.18);
+    border-radius  : 10px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-wrap      : wrap;
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+
+    0% {
+        transform: scale(1);
+    }
+}
+
+h1,
+img {
+    animation: anim 1.5s infinite alternate;
+}
+
+.Cont {
+    background-image   : url(../img/wallpaperflare-cropped.jpg);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat: no-repeat;
+height: 100vh;
+}
+
+.btns a,
+nav a {
+    text-decoration: none;
+    color          : white;
+    padding        : 7px 25px;
+    border-radius  : 5px;
+    background     : rgba(255, 255, 255, 0.25);
+    box-shadow     : 0 10px 50px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    border         : 1px solid rgba(255, 255, 255, 0.18);
+    transition     : .6s;
+}
+
+.btns a:hover,
+nav a:hover {
+    color    : black;
+    transform: scale(1.2);
+}
+
+
+
+.data-input label {
+    color: white;
+    width: 100%;
+}
+
+.data-input input {
+    width          : 100%;
+    padding        : 3px 10px;
+    border         : none;
+    text-decoration: none;
+    color          : white;
+    padding        : 7px 25px;
+    border-radius  : 5px;
+    background     : rgba(255, 255, 255, 0.25);
+    box-shadow     : 0 10px 50px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    border         : 1px solid rgba(255, 255, 255, 0.18);
+    transition     : .6s;
+    margin-bottom  : 10px;
+}
+
+.data-input .form-check {
+    width          : 4%;
+    padding        : 0px 0px;
+    border         : none;
+    text-decoration: none;
+    color          : white;
+    padding        : 0px 0px;
+    border-radius  : 0px;
+    background     : rgba(255, 255, 255, 0.25);
+    box-shadow     : 0 0px 0px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    border         : 0px solid rgba(255, 255, 255, 0.18);
+    transition     : .6s;
+    margin-bottom  : 0px;
+    margin-right   : 10px;
+}

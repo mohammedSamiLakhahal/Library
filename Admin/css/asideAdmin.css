@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+  color: #fff;
+  padding-left: 0;
+}
+/* Start Aside */
+#menuIcon{
+cursor: pointer;    
+}
+.right-icons{
+  background-color:#462004;
+
+}
+aside {
+  min-height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  left: -240px;
+  top: 0;
+  background-color:#281507;
+}
+.aside-data {
+  width: 240px;
+}
+.aside-links {
+  overflow: hidden;
+  height: 320px;
+}
+.aside-links li {
+  padding-top: 500px;
+  cursor: pointer;
+}
+.aside-links a:hover {
+  color: #FF3D00;
+}
+.aside-links a.active {
+   color: #FF3D00 !important;
+}
+aside .right-icons {
+  padding: 10px;
+}
+aside img {
+  width: 50px;
+}
+
+/* End Aside */
